@@ -3,4 +3,4 @@ Welcome to FuelFinder: Your Fast and Affordable Fuel Companion! Discover the nea
 
 https://app.moqups.com/SgbnYPMGbZj8hSnPvgutDGJlFcSvMPZs/edit/page/a880590a1 - Here's our wireframe mockup for the application.
 
-Commits from each team member can be found in the seondary branches. 
+
