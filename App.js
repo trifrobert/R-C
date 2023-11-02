@@ -1,13 +1,20 @@
+//framework was taken from net ninja - react native tutorial for begginers 
+
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image  } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
+      <Image source={require('/assets/fuel_logo.png')} 
+      style={styles.image}/> 
       <Text style={styles.title}>
         <Text style={styles.fuelWord}>Fuel</Text>
         <Text style={styles.finderWord}>Finder</Text>
+      </Text>
+      <Text style={styles.slogan}>
+        <Text style={styles.description}> Fast, Affordable Fuel Right Next To You!</Text>
       </Text>
       {/* Your other content */}
       <StatusBar style="auto" />
@@ -36,5 +43,20 @@ const styles = StyleSheet.create({
 
   finderWord: {
     color: 'rgb(33,33,33)'
+  },
+
+  image: {
+    width: 200,
+    height: 200,
+  },
+
+  slogan: {
+    fontSize: 16,
+    textAlign: 'center',
+    marginVertical: 10,
   }
+
+ 
+
+
 });
